@@ -7,15 +7,16 @@ def read(fname):
 
 
 setuptools.setup(
-    name='hires',
-    version='1.0.0',
+    name='highres',
+    version='1.0.1',
     author="Dilli Babu R",
     author_email="dillir07@outlook.com",
     description='A script to download hi-resolution images using google search by image feature',
-    long_description=read('README.md'),
+    long_description=read('pip-readme.rst'),
     long_description_contect_type="text/markdown",
     url="https://dillir07.github.io/hires/",
     packages=['hiresmodule'],
+    install_requires=['selenium'],
     entry_points={
         "console_scripts": ['hires=hiresmodule.command_line:main']
     },

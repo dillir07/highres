@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/home/dr/venvs/hires/bin/python3.9"
+    "python.pythonPath": "/home/dr/venvs/hires/bin/python3.9",
+    "restructuredtext.confPath": ""
 }

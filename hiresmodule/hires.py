@@ -8,6 +8,7 @@ script will simply ignore and will move on next folder.
 
 """
 
+from copy import Error
 import os
 import sys
 from pathlib import Path
@@ -35,7 +36,7 @@ def wait_for_element(driver, byType, byValue, maxWait: int):
         return None
 
 
-def hires(images_folder_path, hires_folder_name, success_folder_name, error_folder_name, image_extensions: list, wait_time: int):
+def hires(dr, images_folder_path, hires_folder_name, success_folder_name, error_folder_name, image_extensions: list, wait_time: int):
     """
     loops over images files in give folder and downloads hi-res images if available,
     if found hi-res images is saved in success folder,
@@ -53,8 +54,6 @@ def hires(images_folder_path, hires_folder_name, success_folder_name, error_fold
         print("Aborting")
         sys.exit(1)
 
-    # dr = webdriver.Firefox(executable_path=gecko_driver_path)
-    dr = webdriver.Firefox()
     for file in files:
         dr.get(url="https://google.com/images")
         print("working on file:", file)
@@ -139,5 +138,36 @@ def hires_handler() -> None:
         print("{} is a invalid folder".format(args.images_folder_path))
         sys.exit(1)
 
-    hires(images_folder_path, hires_folder_name,
+    dr = None
+
+    if dr is None:
+        try:
+            dr = webdriver.Chrome()
+            dr.get("https://google.com/images")
+        except (Exception, Error) as err:
+            print("Chrome is not installed, err")
+    elif dr is None:
+        try:
+            dr = webdriver.Firefox()
+            dr.get("https://google.com/images")
+        except (Exception, Error) as err:
+            print("Firefox is not installed, err")
+    elif dr is None:
+        try:
+            dr = webdriver.Safari()
+            dr.get("https://google.com/images")
+        except (Exception, Error) as err:
+            print("Safari is not installed, err")
+    elif dr is None:
+        try:
+            dr = webdriver.Edge()
+            dr.get("https://google.com/images")
+        except (Exception, Error) as err:
+            print("Edge is not installed, err")
+    elif dr is None:
+        print("Browser is not available or Webdriver is not set up properly")
+        print("aborting")
+        sys.exit(1)
+
+    hires(dr, images_folder_path, hires_folder_name,
           success_folder_name, error_folder_name, image_extensions, wait_time)

@@ -5,9 +5,6 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
-<!-- PROJECT LOGO -->
 <p align="center">
   <a href="https://github.com/dillir07/hires">
     <img src="https://dev-to-uploads.s3.amazonaws.com/i/ud9pn9tdo5txv5mvwppo.png" alt="hires Logo" width="200" height="200">
@@ -29,8 +26,6 @@
   </p>
 </p>
 
-
-<!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
@@ -66,11 +61,8 @@ To get a local copy up and running follow these simple steps.
 
 This is the list things you need to hires and how to install them.
 
-* python
-* pip
-* selenium
-* firefox browser
-* geckodriver for selenium
+* A browser (Chrome or Firefox or Edge or Safari)
+* Webdriver for the browser
 
 ### Installation
 
@@ -82,55 +74,35 @@ pip install hires
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-- Install firefox if not available already.
-- First step is to download geckodriver from https://github.com/mozilla/geckodriver/releases
-- Added GeckoDriver's folder path to system path
+- If not available already, install a browser such or Chrome or Firefox or Safari or Edge
+- First step is to download webdriver for your Browser
+  - Chrome: https://chromedriver.chromium.org/downloads
+  - Firefox: https://github.com/mozilla/geckodriver/releases
+  - Edge: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+  - Safari: https://developer.apple.com/documentation/webkit/testing_with_webdriver_in_safari
 
+- Add Webdrivers's folder path to system path
+- place your images in a folder, ex: C:\users\dr\Pictures\low-res-images\
 
+execute as follows
+```bash
+C:\>hires C:\users\dr\Pictures\low-res-images
+```
 
-<!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/dillir07/hires/issues) for a list of proposed features (and known issues).
 
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-<!-- Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request -->
-
-
-
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<!-- CONTACT -->
 ## Contact
 
 Dilli Babu R - [@dillir07](https://twitter.com/dillir07) - dillir07@outlook.com
 
 Project Link: [https://dillir07.github.io/hires](https://dillir07.github.io/hires/)
 
-
-
-<!-- ACKNOWLEDGEMENTS -->
-<!-- ## Acknowledgements
-
-* []()
-* []()
-* []() -->
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/dillir07/hires?style=flat-square
 
 [contributors-url]: https://github.com/dillir07/Best-README-Template/graphs/contributors
