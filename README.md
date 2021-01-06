@@ -6,23 +6,23 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <p align="center">
-  <a href="https://github.com/dillir07/hires">
-    <img src="https://dev-to-uploads.s3.amazonaws.com/i/ud9pn9tdo5txv5mvwppo.png" alt="hires Logo" width="200" height="200">
+  <a href="https://github.com/dillir07/highres">
+    <img src="https://dev-to-uploads.s3.amazonaws.com/i/ud9pn9tdo5txv5mvwppo.png" alt="highres Logo" width="200" height="200">
   </a>
 
-  <h3 align="center">hires</h3>
+  <h3 align="center">highres</h3>
 
   <p align="center">
     A script to download hi-resolution images using google search by image feature
     <br />
-    <a href="https://github.com/dillir07/hires"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/dillir07/highres"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/dillir07/hires">View Demo</a>
+    <a href="https://github.com/dillir07/highres">View Demo</a>
     ·
-    <a href="https://github.com/dillir07/hires/issues">Report Bug</a>
+    <a href="https://github.com/dillir07/highres/issues">Report Bug</a>
     ·
-    <a href="https://github.com/dillir07/hires/issues">Request Feature</a>
+    <a href="https://github.com/dillir07/highres/issues">Request Feature</a>
   </p>
 </p>
 
@@ -46,7 +46,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-'hires' script to download hi-resolution images using google search by image feature
+'highres' script to download hi-resolution images using google search by image feature
 
 ### Built With
 
@@ -59,16 +59,16 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is the list things you need to hires and how to install them.
+This is the list things you need to highres and how to install them.
 
 * A browser (Chrome or Firefox or Edge or Safari)
 * Webdriver for the browser
 
 ### Installation
 
-1. Install hires using pip
+1. Install highres using pip
 ```sh
-pip install hires
+pip install highres
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -86,12 +86,12 @@ pip install hires
 
 execute as follows
 ```bash
-C:\>hires C:\users\dr\Pictures\low-res-images
+C:\>highres C:\users\dr\Pictures\low-res-images
 ```
 
 ## Roadmap
 
-See the [open issues](https://github.com/dillir07/hires/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/dillir07/highres/issues) for a list of proposed features (and known issues).
 
 ## License
 
@@ -101,27 +101,27 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Dilli Babu R - [@dillir07](https://twitter.com/dillir07) - dillir07@outlook.com
 
-Project Link: [https://dillir07.github.io/hires](https://dillir07.github.io/hires/)
+Project Link: [https://dillir07.github.io/highres](https://dillir07.github.io/highres/)
 
-[contributors-shield]: https://img.shields.io/github/contributors/dillir07/hires?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/dillir07/highres?style=flat-square
 
 [contributors-url]: https://github.com/dillir07/Best-README-Template/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/dillir07/hires?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/dillir07/highres?style=flat-square
 
 [forks-url]: https://github.com/dillir07/Best-README-Template/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/dillir07/hires?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/dillir07/highres?style=flat-square
 
 [stars-url]: https://github.com/dillir07/Best-README-Template/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/dillir07/hires?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/dillir07/highres?style=flat-square
 
 [issues-url]: https://github.com/dillir07/Best-README-Template/issues
 
-[license-shield]: https://img.shields.io/github/license/dillir07/hires?style=flat-square
+[license-shield]: https://img.shields.io/github/license/dillir07/highres?style=flat-square
 
-[license-url]: https://github.com/dillir07/hires/blob/master/LICENSE
+[license-url]: https://github.com/dillir07/highres/blob/master/LICENSE
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 

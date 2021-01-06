@@ -1,5 +1,5 @@
 ========
-highires
+highres
 ========
 
 -----------------
@@ -16,9 +16,9 @@ Prerequisites
 Installation
 ============
 
-Install hires using pip
+Install highres using pip
 
-``pip install hires``
+``pip install highres``
 
 Usage
 =====
@@ -34,4 +34,4 @@ Usage
 
 execute as follows
 
-``C:\>hires C:\users\dr\Pictures\low-res-images``
+``C:\>highres C:\users\dr\Pictures\low-res-images``
