@@ -8,7 +8,7 @@ def read(fname):
 
 setuptools.setup(
     name='highres',
-    version='1.0.1',
+    version='1.0.2',
     author="Dilli Babu R",
     author_email="dillir07@outlook.com",
     description='A script to download hi-resolution images using google search by image feature',
@@ -18,7 +18,7 @@ setuptools.setup(
     packages=['hiresmodule'],
     install_requires=['selenium'],
     entry_points={
-        "console_scripts": ['hires=hiresmodule.command_line:main']
+        "console_scripts": ['highres=hiresmodule.command_line:main']
     },
     classifiers=[
         "Programming Language :: Python :: 3",
