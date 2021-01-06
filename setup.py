@@ -8,7 +8,7 @@ def read(fname):
 
 setuptools.setup(
     name='highres',
-    version='1.0.2',
+    version='1.0.3',
     author="Dilli Babu R",
     author_email="dillir07@outlook.com",
     description='A script to download hi-resolution images using google search by image feature',

@@ -46,8 +46,8 @@ def hires(dr, images_folder_path, hires_folder_name, success_folder_name, error_
 
     files = os.listdir(images_folder_path)
 
-    files = [file for file in files if "." in file and file.split(
-        ".")[1].lower() in image_extensions]
+    files = [file for file in files if Path(
+        file).suffix.lower() in image_extensions]
 
     if len(files) == 0:
         print("No images found in the input folder")
@@ -132,7 +132,7 @@ def hires_handler() -> None:
     hires_folder_name = Path(r'hires')
     success_folder_name = Path(r'old')
     error_folder_name = Path(r'error')
-    image_extensions = ["jpeg", "jpg", "png", "bmp"]
+    image_extensions = [".jpeg", ".jpg", ".png", ".bmp"]
     wait_time = 5
     if not os.path.exists(images_folder_path):
         print("{} is a invalid folder".format(args.images_folder_path))
