@@ -1,0 +1,24 @@
+{
+    "name": "highres",
+    "version": "1.0.0",
+    "description": "[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]",
+    "main": "index.js",
+    "scripts": {
+        "build:css": "tailwind build src/main.css -o dist/style.css",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dillir07/highres.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dillir07/highres/issues"
+    },
+    "homepage": "https://github.com/dillir07/highres#readme",
+    "dependencies": {
+        "autoprefixer": "^10.2.3",
+        "tailwindcss": "^2.0.2"
+    }
+}
